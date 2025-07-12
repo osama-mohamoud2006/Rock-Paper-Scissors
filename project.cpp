@@ -233,13 +233,9 @@ void the_number_of_rounds_by_user(int& choice, int& time, stcount_wins_and_losse
 }
 
 void game_summary(stcount_wins_and_losses& count, int time) {
-	// لون شاشة الجيم أوفر (خلفية سودة، كتابة حمرا)
 	system("color 0C");
 
-	// تشغيل صوت ماريو 2 للجيم أوفر
-	playMario2GameOver(); // الصوت هيشتغل لمرة واحدة ويتزامن مع بداية الشاشة
-
-	// عرض النصوص بأنيميشن
+	playMario2GameOver(); 
 	cout << "\n\t+==============================+\n";
 	cout << "\t|       ";
 	animateText("G  A  M  E   O  V  E  R", 150);
@@ -281,6 +277,9 @@ void start_game(int& choice, int& time, stcount_wins_and_losses& count) {
 		cout << "\ndo you need another round? y/n ";
 		cin >> need;
 		if (need == 'y' || need == 'Y') {
+			count.user_wins = 0;
+			count.computer_wins = 0;
+			count.draws = 0;
 			playm3lab();
 				
 			
