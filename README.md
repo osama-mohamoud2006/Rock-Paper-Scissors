@@ -66,7 +66,7 @@ Each round, the computer randomly chooses a move. The game compares both choices
 
 ## 🧾 How to Run
 
-1. Open the `.cpp` file in your C++ IDE (e.g., Visual Studio)
+1. Open the `.cpp` file in your C++ IDE (e.g., Visual Studio) or just run Project.exe file
 2. Make sure both sound files are in the same directory
 3. Compile and run
 4. Follow on-screen instructions to play
