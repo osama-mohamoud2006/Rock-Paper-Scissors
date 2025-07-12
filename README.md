@@ -35,21 +35,6 @@ Each round, the computer randomly chooses a move. The game compares both choices
 
 ---
 
-## 🖥️ How is game looking :
-
-```
-
-Round\[1] begins :)
-
-Your choice is: \[1]\:Stone , \[2]\:Paper ,\[3]\:scissor: 2
-
-player choice: paper
-computer choice: stone
-
-user won this round!
-
-```
-
 > 🎉 At the end of all rounds, the game shows a result screen with sound and animation,and ask you if you want another round or not .
 
 ---
